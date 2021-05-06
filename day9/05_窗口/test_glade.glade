@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<interface>
+  <requires lib="gtk+" version="2.16"/>
+  <!-- interface-naming-policy project-wide -->
+  <object class="GtkWindow" id="window1">
+    <property name="title" translatable="yes">glade_test</property>
+    <child>
+      <object class="GtkFixed" id="fixed1">
+        <property name="width_request">480</property>
+        <property name="height_request">320</property>
+        <property name="visible">True</property>
+        <child>
+          <object class="GtkButton" id="button1">
+            <property name="label" translatable="yes">^_^</property>
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="yalign">0.4699999988079071</property>
+          </object>
+          <packing>
+            <property name="x">81</property>
+            <property name="y">166</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button2">
+            <property name="label" translatable="yes">@_@</property>
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="extension_events">cursor</property>
+          </object>
+          <packing>
+            <property name="x">303</property>
+            <property name="y">171</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
